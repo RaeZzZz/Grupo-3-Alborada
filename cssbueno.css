@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     font-family: sans-serif;
@@ -129,102 +128,100 @@ body{
 
 }
 
-#sinunderline{
-    text-decoration: none !important
-    
-}
-
-#titulo1 {
-    color: rgb(255, 255, 255);
-    position: relative;
-    left: 28vmax;
-    font-size: 1.5vmax;
+.tabla1{
+    display: flex;
+    justify-content: center;
     
 }
 
 .masvendidos{
-    position: relative; 
-    top: 1.6vmax; 
-    left: 10vmax;
     width: 80vmax;
-    height: 15.5vmax;
+    height: 20vmax;
     background: linear-gradient( to bottom, #0f0436 5%, #00020a 95%);
-    justify-content: center;
-    display: flex;
-
-}
-
-
-#mejorvalorados{
-    position: relative; 
-    top: 3vmax; 
-    left: 10vmax;
-    width: 80vmax;
-    height: 15.5vmax;
-    background: linear-gradient( to bottom, #0f0436 5%, #00020a 95%);
-    justify-content: center;
-    display: flex;
-    
-    
-}
-
-#recomendados{
-    position: relative; 
-    top: 4.5vmax; 
-    left: 10vmax;
-    width: 80vmax;
-    height: 15.5vmax;
-    background: linear-gradient( to bottom, #0f0436 5%, #00020a 95%);
-    justify-content: center;
-    display: flex;
- 
-}
-
-.centrartabla{
-    display: flex;
     position: relative;
-    top: 1vmax;
-
-}
-
-#fotos{
-    border: 0.2vmax solid rgb(0, 0, 0);
-    position: relative;
-    left: 1.4vmax;
-    width: 11vmax;
-    transition: 0.5s;
-    z-index: rgb(12, 1, 39) 2;
+    top: 3vmax;
+    justify-content: center;
+    display: flex;
     
 }
 
-img:hover{
-    opacity: 0.3;
-    background-color: #fff;
-    animation-delay: 0.2s;
-    transform: scale(1.2);
 
-}
-
-#textos{
-    font-size: 1vmax;
-    text-align: center;
-    text-decoration: none;
+#titulo1{
     color: rgb(255, 255, 255);
     position: relative;
-    left: 1.4vmax;
+    font-size: 2vmax;
+    position: relative;
+    top: 1vmax;
+    left: 28.8vmax;
+}
+
+#decorationnone{
+    text-decoration: none
+
+}
+
+#texto10{
+    color: white;
+    text-align: center;
+    font-size: 1.2vmax;
+
+}
+
+#texto11{
+    color: white;
+    text-align: center;
+    font-size: 1.2vmax;
+    position: relative;
+    top: -1.3vmax;
     
 }
 
-.vermas{
-    padding: 0.15vmax 0.6vmax;
-    background-color: #20a4cc;
-    font-size: 0.75vmax;
-    border-radius: 10vmax;
-    text-decoration: none;
+#texto12{
     color: white;
-    position: relative; 
-    left: 2vmax;
-    height: 3.5vmax;
+    text-align: center;
+    font-size: 1.2vmax;
+    position: relative;
+    top: -2.6vmax;
+    
+}
+
+#texto13{
+    color: white;
+    text-align: center;
+    font-size: 1.2vmax;
+    position: relative;
+    top: -3.9vmax;
+    
+}
+
+#fotos10{
+    margin: 0.5vmax;
+    position: relative;
+    width: 13vmax;
+    
+}
+
+#fotos11{
+    margin: 0.5vmax;
+    position: relative;
+    width: 13vmax;
+    top: -1.3vmax;
+    
+}
+
+#fotos12{
+    margin: 0.5vmax;
+    position: relative;
+    width: 13vmax;
+    top: -2.6vmax;
+    
+}
+
+#fotos13{
+    margin: 0.5vmax;
+    position: relative;
+    width: 13vmax;
+    top: -3.9vmax;
     
 }
 
